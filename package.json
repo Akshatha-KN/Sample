@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "building todo app using mongodb, express, react and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"yarn run start-watch\" \"cd client && yarn start\""
+  },
+  "author": "Ojini Jude",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.3.6",
+    "node-cron": "^2.0.3",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^4.1.2",
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.19.4"
+  }
+}
